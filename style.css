@@ -100,4 +100,142 @@ body{
 
  /* 65% section styles ends here  */
 
+ /* midnight-party section styles starts here */
+
+ .midnight-party-container{
+    max-width: 1320px;
+    height: 600px;
+   
+    margin: 0 auto;
+    display: flex;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%)  , url("images/vectorr.png");
+    margin-bottom: 100px;
+ }
+
+ .left-side-content{
+    width: 60%;
+    height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+ }
+ .left-side-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+ }
+ .left-side-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+ }
+ .left-side-content span{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: left;
+
+ }
+
+ .right-side-content{
+    width: 50%;
+    height: 600px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .right-side-content img{
+    width: 349.16px;
+    height: 464.65px;
+ }
+ /* midnight-party section styles ends here */
+
+ /* holiday styles start */
+.holiday-section-container{
+    width: 1320px;
+    height: 986.07px;
+    border: 2px solid red;
+    margin: 0 auto;
+    position: relative;
+}
+.holiday-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.holiday-text-container h1{
+    font-size: 72px;
+    font-weight: 900;
+    color: black;
+}
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-text-container h1 span{
+    color: red;
+}
+
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    position: absolute;
+    top: 77%;
+}
+
+.gift-box{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    
+}
+
+
+.girl-image{
+    width: 429px;
+    height: 433px;
+    position: relative;
+    top: 14%;
+}
+
+.discount{
+    position: absolute;
+    z-index: 1;
+    bottom: 39%;
+    left:40%;
+    
+}
+
+ /* holiday styles end */
+
  
