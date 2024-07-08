@@ -281,4 +281,49 @@ body{
  }
  /* portfolio section styles ends here */
 
+ /* footer style section starts here */
+ .footer-container{
+    width: 1600px;
+    height: 609px;
+    background-color:  rgb(7, 2, 17);
+  
+
+ }
+ .footer-first-sec{
+    display: flex;
+    justify-content: space-around;
+   }
+ .footer-first-sec .left-side{
+    margin-top: 90px;
+   }
+   .footer-first-sec .right-side{
+    margin-top: 90px;
+   }
+ .footer-first-sec p{
+    color: white;
+    
+ }
+
+ .footer-icon-container{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 40px;
+   
+   }
+   .footer-icon-container img{
+    width: 40px;
+    
+   }
+   hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 30px;
+   }
+   
+
+ 
+ /* footer style section ends here */
+
  
